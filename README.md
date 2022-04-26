@@ -2,54 +2,55 @@
 A simple testimonial system
 
 ## Server Requirements 
-PHP >= 8.0
-BCMath PHP Extension
-Ctype PHP Extension
-cURL PHP Extension
-DOM PHP Extension
-Fileinfo PHP Extension
-JSON PHP Extension
-Mbstring PHP Extension
-OpenSSL PHP Extension
-PCRE PHP Extension
-PDO PHP Extension
-Tokenizer PHP Extension
-XML PHP Extension
+<ul>
+  <li>PHP >= 8.0</li>
+  <li>BCMath PHP Extension</li>
+  <li>Ctype PHP Extension</li>
+  <li>cURL PHP Extension</li>
+  <li>DOM PHP Extension</li>
+  <li>Fileinfo PHP Extension</li>
+  <li>JSON PHP Extension</li>
+  <li>Mbstring PHP Extension</li>
+  <li>OpenSSL PHP Extension</li>
+  <li>PDO PHP Extension</li>
+  <li>Tokenizer PHP Extension</li>
+  <li>XML PHP Extension</li>
+</ul>
 
 ## Project install from After Cloning From GitHub Repository
-run git clone https://github.com/DevMahbubHussain/Programming-Assessment
-run composer install.
-run cp .env.example .env.
-run php artisan key:generate.
-run php artisan migrate.
-run php artisan serve
-
+<ul>
+  <li>run git clone https://github.com/DevMahbubHussain/Programming-Assessment</li>
+  <li>run composer install.</li>
+  <li>run composer install.</li>
+  <li>run cp .env.example .env.</li>
+  <li>run php artisan key:generate.</li>
+  <li>run php artisan migrate.</li>
+  <li>run php artisan serve</li>
+</ul>
 
 ## Database Connection
 
-<h3>Create database and put your database name is .env file</h3>
+<h3>Create database and put your database name in .env file</h3>
 <p>DB_DATABASE=workspaceit</p>
 
 ## password reset system
 
 <p> for test password reset option please follow these rules</p>
 <p> First go to your project .env file and modifiy follwing data </p>
-<p>
-MAIL_MAILER=smtp
-MAIL_HOST=smtp.mailtrap.io
-MAIL_PORT=2525
-MAIL_USERNAME=69c6152cde6b19
-MAIL_PASSWORD=b37999688aa343
-MAIL_ENCRYPTION=tls
-MAIL_FROM_ADDRESS="mahbubhussaincse@gmail.com"
-</p>
+<p>MAIL_MAILER=smtp</p>
+<p>MAIL_HOST=smtp.mailtrap.io</p>
+<p>MAIL_PORT=2525</p>
+<p>MAIL_USERNAME=69c6152cde6b19</p>
+<p>MAIL_PASSWORD=b37999688aa343</p>
+<p>MAIL_ENCRYPTION=tls</p>
+<p>MAIL_FROM_ADDRESS="mahbubhussaincse@gmail.com"</p>
 <h3>Change all Mailtrap configiration from your own mailtrap ceredentials</h3>
 
 ## Admin Email & Password
-Username:adminworkspaceit@gmail.com
-Password:admin
+<p>Username:adminworkspaceit@gmail.com</p>
+<p>Password:admin</p>
 
 ## Client Email & Password
-Username:mahbubhussaincse@gmail.com
-Password:client
+<p>Username:mahbubhussaincse@gmail.com</p>
+<p>Password:client</p>
 
