@@ -17,7 +17,7 @@ A simple testimonial system Using Laravel & Mysql
   <li>XML PHP Extension</li>
 </ul>
 
-## Project install from GitHub Repository
+## Project install From GitHub Repository
 <ul>
   <li>run git clone https://github.com/DevMahbubHussain/Programming-Assessment</li>
   <li>run composer install.</li>
