@@ -21,7 +21,6 @@ A simple testimonial system Using Laravel & Mysql
 <ul>
   <li>run git clone https://github.com/DevMahbubHussain/Programming-Assessment</li>
   <li>run composer install.</li>
-  <li>run composer install.</li>
   <li>run cp .env.example .env.</li>
   <li>run php artisan key:generate.</li>
   <li>run php artisan migrate.</li>
@@ -35,7 +34,7 @@ A simple testimonial system Using Laravel & Mysql
 
 ## password reset system
 
-<p> for test password reset option please follow these rules</p>
+<p> for testing password reset option please follow these rules</p>
 <p> First go to your project .env file and modifiy follwing data </p>
 <p>MAIL_MAILER=smtp</p>
 <p>MAIL_HOST=smtp.mailtrap.io</p>
@@ -46,9 +45,13 @@ A simple testimonial system Using Laravel & Mysql
 <p>MAIL_FROM_ADDRESS="mahbubhussaincse@gmail.com"</p>
 <h3>Change all Mailtrap configiration from your own mailtrap ceredentials</h3>
 
+## Admin Registration system if you want to create from system
+http://127.0.0.1:8000/admin/register
+
 ## Admin Email & Password
 <p>Username:adminworkspaceit@gmail.com</p>
 <p>Password:admin</p>
+
 
 ## Client Email & Password
 <p>Username:mahbubhussaincse@gmail.com</p>
